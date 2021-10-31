@@ -1,0 +1,153 @@
+2021-10-31 22:15:20.513 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-10-31 22:15:20.515 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2021-10-31 22:15:20.515 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2021-10-31 22:15:20.518 [info] <0.44.0> Application broadway started on node nonode@nohost
+2021-10-31 22:15:20.519 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-10-31 22:15:20.523 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-10-31 22:15:20.523 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-10-31 22:15:20.523 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-10-31 22:15:20.523 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-10-31 22:15:20.563 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-10-31 22:15:20.563 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-10-31 22:15:20.567 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-10-31 22:15:20.569 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-10-31 22:15:20.569 [info] <0.44.0> Application nimble_options started on node nonode@nohost
+2021-10-31 22:15:20.569 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2021-10-31 22:15:20.571 [error] <0.350.0> Supervisor 'Elixir.DataPipeline.Supervisor' had child 'Elixir.DataPipeline.Consumer' started with 'Elixir.DataPipeline.Consumer':start_link([]) at undefined exit with reason {'EXIT',{undef,[{'Elixir.DataPipeline.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,414}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,400}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,384}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1242}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,350}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,423}]},{gen_server,init_it,6,...}]}} in context start_error
+2021-10-31 22:15:20.571 [error] <0.348.0> CRASH REPORT Process <0.348.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer',{'EXIT',{undef,[{'Elixir.DataPipeline.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,414}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,400}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,384}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1242}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,350}]},{gen_server,init_it,...},...]}}}},...} in application_master:init/4 line 142
+2021-10-31 22:15:20.572 [info] <0.44.0> Application data_pipeline exited with reason: {{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer',{'EXIT',{undef,[{'Elixir.DataPipeline.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,414}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,400}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,384}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1242}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,350}]},{gen_server,init_it,...},...]}}}},...}
+2021-10-31 22:15:20.578 [info] <0.44.0> Application broadway_rabbitmq exited with reason: stopped
+2021-10-31 22:15:20.578 [info] <0.44.0> Application nimble_options exited with reason: stopped
+2021-10-31 22:15:20.578 [info] <0.44.0> Application amqp exited with reason: stopped
+2021-10-31 22:15:20.579 [info] <0.44.0> Application amqp_client exited with reason: stopped
+2021-10-31 22:15:20.579 [info] <0.44.0> Application rabbit_common exited with reason: stopped
+2021-10-31 22:15:20.579 [info] <0.44.0> Application credentials_obfuscation exited with reason: stopped
+2021-10-31 22:15:20.579 [info] <0.44.0> Application recon exited with reason: stopped
+2021-10-31 22:15:20.579 [info] <0.44.0> Application jsx exited with reason: stopped
+2021-10-31 22:15:20.579 [info] <0.44.0> Application tools exited with reason: stopped
+2021-10-31 22:15:20.579 [info] <0.44.0> Application sasl exited with reason: stopped
+2021-10-31 22:15:20.579 [info] <0.44.0> Application xmerl exited with reason: stopped
+2021-10-31 22:15:20.579 [info] <0.44.0> Application broadway exited with reason: stopped
+2021-10-31 22:15:20.580 [info] <0.44.0> Application telemetry exited with reason: stopped
+2021-10-31 22:15:20.580 [info] <0.44.0> Application gen_stage exited with reason: stopped
+2021-10-31 22:19:39.654 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-10-31 22:19:39.656 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2021-10-31 22:19:39.657 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2021-10-31 22:19:39.659 [info] <0.44.0> Application broadway started on node nonode@nohost
+2021-10-31 22:19:39.659 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-10-31 22:19:39.664 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-10-31 22:19:39.664 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-10-31 22:19:39.664 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-10-31 22:19:39.664 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-10-31 22:19:39.702 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-10-31 22:19:39.702 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-10-31 22:19:39.706 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-10-31 22:19:39.708 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-10-31 22:19:39.708 [info] <0.44.0> Application nimble_options started on node nonode@nohost
+2021-10-31 22:19:39.708 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2021-10-31 22:19:39.720 [error] <0.354.0>@Elixir.Producer:init Supervisor 'Elixir.Consumer.Broadway.ProducerSupervisor' had child 'Elixir.Consumer.Broadway.Producer_0' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,...},...]},...], 0, [{name,'Elixir.Consumer.Broadway.Producer_0'},{hibernate_after,15000}]) at undefined exit with reason call to undefined function 'Elixir.Producer':init([{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,...},...]},...]) in context start_error
+2021-10-31 22:19:39.720 [error] <0.352.0> Supervisor 'Elixir.Consumer.Broadway.Supervisor' had child #Ref<0.393057305.3862953985.76038> started with 'Elixir.Supervisor':start_link([#{id => 'Elixir.Consumer.Broadway.Producer_0',shutdown => 30000,start => {'Elixir.Broadway.Topology.ProducerStage',...}}], [{name,'Elixir.Consumer.Broadway.ProducerSupervisor'},{strategy,one_for_one},{max_restarts,2},{max_seconds,...}]) at undefined exit with reason {shutdown,{failed_to_start_child,'Elixir.Consumer.Broadway.Producer_0',{undef,[{'Elixir.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.Consumer'},{producer,[{hibernate_after,15000},{module,{'Elixir.Producer',[{queue,<<"test_queue">>}]}},{transformer,{'Elixir.DataPipeline.Consumer',transform,[]}},{concurrency,1},{rate_limiting,[{allowed_messages,...},...]}]},...]},...]],...},...]}}} in context start_error
+2021-10-31 22:19:39.720 [error] <0.351.0>@Elixir.Broadway.Topology:init:37 CRASH REPORT Process <0.351.0> with 0 neighbours crashed with reason: no match of right hand value {error,{shutdown,{failed_to_start_child,#Ref<0.393057305.3862953985.76038>,{shutdown,{failed_to_start_child,'Elixir.Consumer.Broadway.Producer_0',{undef,[{'Elixir.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.Consumer'},{producer,[{hibernate_after,15000},{module,{'Elixir.Producer',[{queue,<<"test_queue">>}]}},{transformer,{'Elixir.DataPipeline.Consumer',...}},...]},...]},...]],...},...]}}}}}} in 'Elixir.Broadway.Topology':init/1 line 37
+2021-10-31 22:19:39.721 [error] <0.350.0>@Elixir.Broadway.Topology:init:37 Supervisor 'Elixir.DataPipeline.Supervisor' had child 'Elixir.DataPipeline.Consumer' started with 'Elixir.DataPipeline.Consumer':start_link([]) at undefined exit with reason no match of right hand value {error,{shutdown,{failed_to_start_child,#Ref<0.393057305.3862953985.76038>,{shutdown,{failed_to_start_child,'Elixir.Consumer.Broadway.Producer_0',{undef,[{'Elixir.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.Consumer'},{producer,[{hibernate_after,15000},{module,{'Elixir.Producer',[{queue,<<"test_queue">>}]}},{transformer,{'Elixir.DataPipeline.Consumer',...}},...]},...]},...]],...},...]}}}}}} in 'Elixir.Broadway.Topology':init/1 line 37 in context start_error
+2021-10-31 22:19:39.721 [error] <0.348.0> CRASH REPORT Process <0.348.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer',{{badmatch,{error,{shutdown,{failed_to_start_child,#Ref<0.393057305.3862953985.76038>,{shutdown,{failed_to_start_child,'Elixir.Consumer.Broadway.Producer_0',{undef,[{'Elixir.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.Consumer'},{producer,[{hibernate_after,15000},{module,{'Elixir.Producer',...}},...]},...]},...]],...},...]}}}}}}},...}}},...} in application_master:init/4 line 142
+2021-10-31 22:19:39.721 [info] <0.44.0> Application data_pipeline exited with reason: {{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer',{{badmatch,{error,{shutdown,{failed_to_start_child,#Ref<0.393057305.3862953985.76038>,{shutdown,{failed_to_start_child,'Elixir.Consumer.Broadway.Producer_0',{undef,[{'Elixir.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.Consumer'},{producer,[{hibernate_after,15000},{module,{'Elixir.Producer',...}},...]},...]},...]],...},...]}}}}}}},...}}},...}
+2021-10-31 22:19:39.729 [info] <0.44.0> Application broadway_rabbitmq exited with reason: stopped
+2021-10-31 22:19:39.729 [info] <0.44.0> Application nimble_options exited with reason: stopped
+2021-10-31 22:19:39.729 [info] <0.44.0> Application amqp exited with reason: stopped
+2021-10-31 22:19:39.729 [info] <0.44.0> Application amqp_client exited with reason: stopped
+2021-10-31 22:19:39.729 [info] <0.44.0> Application rabbit_common exited with reason: stopped
+2021-10-31 22:19:39.729 [info] <0.44.0> Application credentials_obfuscation exited with reason: stopped
+2021-10-31 22:19:39.729 [info] <0.44.0> Application recon exited with reason: stopped
+2021-10-31 22:19:39.730 [info] <0.44.0> Application jsx exited with reason: stopped
+2021-10-31 22:19:39.730 [info] <0.44.0> Application tools exited with reason: stopped
+2021-10-31 22:19:39.730 [info] <0.44.0> Application sasl exited with reason: stopped
+2021-10-31 22:19:39.730 [info] <0.44.0> Application xmerl exited with reason: stopped
+2021-10-31 22:19:39.730 [info] <0.44.0> Application broadway exited with reason: stopped
+2021-10-31 22:19:39.730 [info] <0.44.0> Application telemetry exited with reason: stopped
+2021-10-31 22:19:39.730 [info] <0.44.0> Application gen_stage exited with reason: stopped
+2021-10-31 22:21:45.875 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-10-31 22:21:45.877 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2021-10-31 22:21:45.878 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2021-10-31 22:21:45.880 [info] <0.44.0> Application broadway started on node nonode@nohost
+2021-10-31 22:21:45.880 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-10-31 22:21:45.885 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-10-31 22:21:45.885 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-10-31 22:21:45.885 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-10-31 22:21:45.885 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-10-31 22:21:45.925 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-10-31 22:21:45.925 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-10-31 22:21:45.928 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-10-31 22:21:45.931 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-10-31 22:21:45.931 [info] <0.44.0> Application nimble_options started on node nonode@nohost
+2021-10-31 22:21:45.931 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2021-10-31 22:21:45.942 [error] <0.354.0>@Elixir.DataPipeline.Producer:init Supervisor 'Elixir.DataPipeline.Consumer.Broadway.ProducerSupervisor' had child 'Elixir.DataPipeline.Consumer.Broadway.Producer_0' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,...},...]},...], 0, [{name,'Elixir.DataPipeline.Consumer.Broadway.Producer_0'},{hibernate_after,15000}]) at undefined exit with reason call to undefined function 'Elixir.DataPipeline.Producer':init([{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,...},...]},...]) in context start_error
+2021-10-31 22:21:45.943 [error] <0.352.0> Supervisor 'Elixir.DataPipeline.Consumer.Broadway.Supervisor' had child #Ref<0.1018639249.3326607366.119273> started with 'Elixir.Supervisor':start_link([#{id => 'Elixir.DataPipeline.Consumer.Broadway.Producer_0',shutdown => 30000,start => {'Elixir.Broadway.Topology.ProducerStage',...}}], [{name,'Elixir.DataPipeline.Consumer.Broadway.ProducerSupervisor'},{strategy,one_for_one},{max_restarts,...},...]) at undefined exit with reason {shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer.Broadway.Producer_0',{undef,[{'Elixir.DataPipeline.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.DataPipeline.Consumer'},{producer,[{hibernate_after,15000},{module,{'Elixir.DataPipeline.Producer',[{queue,<<"test_queue">>}]}},{transformer,{'Elixir.DataPipeline.Consumer',transform,[]}},...]},...]},...]],...},...]}}} in context start_error
+2021-10-31 22:21:45.943 [error] <0.351.0>@Elixir.Broadway.Topology:init:37 CRASH REPORT Process <0.351.0> with 0 neighbours crashed with reason: no match of right hand value {error,{shutdown,{failed_to_start_child,#Ref<0.1018639249.3326607366.119273>,{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer.Broadway.Producer_0',{undef,[{'Elixir.DataPipeline.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.DataPipeline.Consumer'},{producer,[{hibernate_after,15000},{module,{'Elixir.DataPipeline.Producer',[{queue,<<"...">>}]}},...]},...]},...]],...},...]}}}}}} in 'Elixir.Broadway.Topology':init/1 line 37
+2021-10-31 22:21:45.943 [error] <0.350.0>@Elixir.Broadway.Topology:init:37 Supervisor 'Elixir.DataPipeline.Supervisor' had child 'Elixir.DataPipeline.Consumer' started with 'Elixir.DataPipeline.Consumer':start_link([]) at undefined exit with reason no match of right hand value {error,{shutdown,{failed_to_start_child,#Ref<0.1018639249.3326607366.119273>,{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer.Broadway.Producer_0',{undef,[{'Elixir.DataPipeline.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.DataPipeline.Consumer'},{producer,[{hibernate_after,15000},{module,{'Elixir.DataPipeline.Producer',[{queue,<<"...">>}]}},...]},...]},...]],...},...]}}}}}} in 'Elixir.Broadway.Topology':init/1 line 37 in context start_error
+2021-10-31 22:21:45.943 [error] <0.348.0> CRASH REPORT Process <0.348.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer',{{badmatch,{error,{shutdown,{failed_to_start_child,#Ref<0.1018639249.3326607366.119273>,{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer.Broadway.Producer_0',{undef,[{'Elixir.DataPipeline.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.DataPipeline.Consumer'},{producer,...},...]},...]],...},...]}}}}}}},...}}},...} in application_master:init/4 line 142
+2021-10-31 22:21:45.943 [info] <0.44.0> Application data_pipeline exited with reason: {{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer',{{badmatch,{error,{shutdown,{failed_to_start_child,#Ref<0.1018639249.3326607366.119273>,{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer.Broadway.Producer_0',{undef,[{'Elixir.DataPipeline.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.DataPipeline.Consumer'},{producer,...},...]},...]],...},...]}}}}}}},...}}},...}
+2021-10-31 22:21:45.953 [info] <0.44.0> Application broadway_rabbitmq exited with reason: stopped
+2021-10-31 22:21:45.953 [info] <0.44.0> Application nimble_options exited with reason: stopped
+2021-10-31 22:21:45.953 [info] <0.44.0> Application amqp exited with reason: stopped
+2021-10-31 22:21:45.953 [info] <0.44.0> Application amqp_client exited with reason: stopped
+2021-10-31 22:21:45.953 [info] <0.44.0> Application rabbit_common exited with reason: stopped
+2021-10-31 22:21:45.954 [info] <0.44.0> Application credentials_obfuscation exited with reason: stopped
+2021-10-31 22:21:45.954 [info] <0.44.0> Application recon exited with reason: stopped
+2021-10-31 22:21:45.954 [info] <0.44.0> Application jsx exited with reason: stopped
+2021-10-31 22:21:45.954 [info] <0.44.0> Application tools exited with reason: stopped
+2021-10-31 22:21:45.954 [info] <0.44.0> Application sasl exited with reason: stopped
+2021-10-31 22:21:45.954 [info] <0.44.0> Application xmerl exited with reason: stopped
+2021-10-31 22:21:45.954 [info] <0.44.0> Application broadway exited with reason: stopped
+2021-10-31 22:21:45.954 [info] <0.44.0> Application telemetry exited with reason: stopped
+2021-10-31 22:21:45.954 [info] <0.44.0> Application gen_stage exited with reason: stopped
+2021-10-31 22:25:04.253 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-10-31 22:25:04.254 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2021-10-31 22:25:04.255 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2021-10-31 22:25:04.258 [info] <0.44.0> Application broadway started on node nonode@nohost
+2021-10-31 22:25:04.258 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-10-31 22:25:04.263 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-10-31 22:25:04.263 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-10-31 22:25:04.263 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-10-31 22:25:04.263 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-10-31 22:25:04.303 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-10-31 22:25:04.303 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-10-31 22:25:04.306 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-10-31 22:25:04.308 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-10-31 22:25:04.308 [info] <0.44.0> Application nimble_options started on node nonode@nohost
+2021-10-31 22:25:04.308 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2021-10-31 22:25:04.319 [error] <0.354.0>@Elixir.DataPipeline.Producer:init Supervisor 'Elixir.DataPipeline.Consumer.Broadway.ProducerSupervisor' had child 'Elixir.DataPipeline.Consumer.Broadway.Producer_0' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,...},...]},...], 0, [{name,'Elixir.DataPipeline.Consumer.Broadway.Producer_0'},{hibernate_after,15000}]) at undefined exit with reason call to undefined function 'Elixir.DataPipeline.Producer':init([{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,...},...]},...]) in context start_error
+2021-10-31 22:25:04.319 [error] <0.352.0> Supervisor 'Elixir.DataPipeline.Consumer.Broadway.Supervisor' had child #Ref<0.101151565.643039235.218309> started with 'Elixir.Supervisor':start_link([#{id => 'Elixir.DataPipeline.Consumer.Broadway.Producer_0',shutdown => 30000,start => {'Elixir.Broadway.Topology.ProducerStage',...}}], [{name,'Elixir.DataPipeline.Consumer.Broadway.ProducerSupervisor'},{strategy,one_for_one},{max_restarts,...},...]) at undefined exit with reason {shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer.Broadway.Producer_0',{undef,[{'Elixir.DataPipeline.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.DataPipeline.Consumer'},{producer,[{hibernate_after,15000},{module,{'Elixir.DataPipeline.Producer',[{queue,<<"test_queue">>}]}},{transformer,{'Elixir.DataPipeline.Consumer',transform,[]}},...]},...]},...]],...},...]}}} in context start_error
+2021-10-31 22:25:04.319 [error] <0.351.0>@Elixir.Broadway.Topology:init:37 CRASH REPORT Process <0.351.0> with 0 neighbours crashed with reason: no match of right hand value {error,{shutdown,{failed_to_start_child,#Ref<0.101151565.643039235.218309>,{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer.Broadway.Producer_0',{undef,[{'Elixir.DataPipeline.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.DataPipeline.Consumer'},{producer,[{hibernate_after,15000},{module,{'Elixir.DataPipeline.Producer',[{queue,<<"te...">>}]}},...]},...]},...]],...},...]}}}}}} in 'Elixir.Broadway.Topology':init/1 line 37
+2021-10-31 22:25:04.319 [error] <0.350.0>@Elixir.Broadway.Topology:init:37 Supervisor 'Elixir.DataPipeline.Supervisor' had child 'Elixir.DataPipeline.Consumer' started with 'Elixir.DataPipeline.Consumer':start_link([]) at undefined exit with reason no match of right hand value {error,{shutdown,{failed_to_start_child,#Ref<0.101151565.643039235.218309>,{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer.Broadway.Producer_0',{undef,[{'Elixir.DataPipeline.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.DataPipeline.Consumer'},{producer,[{hibernate_after,15000},{module,{'Elixir.DataPipeline.Producer',[{queue,<<"te...">>}]}},...]},...]},...]],...},...]}}}}}} in 'Elixir.Broadway.Topology':init/1 line 37 in context start_error
+2021-10-31 22:25:04.320 [error] <0.348.0> CRASH REPORT Process <0.348.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer',{{badmatch,{error,{shutdown,{failed_to_start_child,#Ref<0.101151565.643039235.218309>,{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer.Broadway.Producer_0',{undef,[{'Elixir.DataPipeline.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.DataPipeline.Consumer'},{producer,...},...]},...]],...},...]}}}}}}},...}}},...} in application_master:init/4 line 142
+2021-10-31 22:25:04.320 [info] <0.44.0> Application data_pipeline exited with reason: {{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer',{{badmatch,{error,{shutdown,{failed_to_start_child,#Ref<0.101151565.643039235.218309>,{shutdown,{failed_to_start_child,'Elixir.DataPipeline.Consumer.Broadway.Producer_0',{undef,[{'Elixir.DataPipeline.Producer',init,[[{broadway,[{index,0},{hibernate_after,15000},{batchers,[]},{context,context_not_set},{resubscribe_interval,100},{max_seconds,5},{max_restarts,3},{shutdown,30000},{name,'Elixir.DataPipeline.Consumer'},{producer,...},...]},...]],...},...]}}}}}}},...}}},...}
+2021-10-31 22:25:04.329 [info] <0.44.0> Application broadway_rabbitmq exited with reason: stopped
+2021-10-31 22:25:04.329 [info] <0.44.0> Application nimble_options exited with reason: stopped
+2021-10-31 22:25:04.329 [info] <0.44.0> Application amqp exited with reason: stopped
+2021-10-31 22:25:04.330 [info] <0.44.0> Application amqp_client exited with reason: stopped
+2021-10-31 22:25:04.330 [info] <0.44.0> Application rabbit_common exited with reason: stopped
+2021-10-31 22:25:04.330 [info] <0.44.0> Application credentials_obfuscation exited with reason: stopped
+2021-10-31 22:25:04.330 [info] <0.44.0> Application recon exited with reason: stopped
+2021-10-31 22:25:04.330 [info] <0.44.0> Application jsx exited with reason: stopped
+2021-10-31 22:25:04.330 [info] <0.44.0> Application tools exited with reason: stopped
+2021-10-31 22:25:04.330 [info] <0.44.0> Application sasl exited with reason: stopped
+2021-10-31 22:25:04.330 [info] <0.44.0> Application xmerl exited with reason: stopped
+2021-10-31 22:25:04.330 [info] <0.44.0> Application broadway exited with reason: stopped
+2021-10-31 22:25:04.331 [info] <0.44.0> Application telemetry exited with reason: stopped
+2021-10-31 22:25:04.331 [info] <0.44.0> Application gen_stage exited with reason: stopped
+2021-10-31 22:27:19.868 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-10-31 22:27:19.870 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2021-10-31 22:27:19.871 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2021-10-31 22:27:19.873 [info] <0.44.0> Application broadway started on node nonode@nohost
+2021-10-31 22:27:19.873 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-10-31 22:27:19.878 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-10-31 22:27:19.878 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-10-31 22:27:19.878 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-10-31 22:27:19.878 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-10-31 22:27:19.918 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-10-31 22:27:19.918 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-10-31 22:27:19.921 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-10-31 22:27:19.923 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-10-31 22:27:19.923 [info] <0.44.0> Application nimble_options started on node nonode@nohost
+2021-10-31 22:27:19.923 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2021-10-31 22:27:19.951 [info] <0.44.0> Application data_pipeline started on node nonode@nohost
